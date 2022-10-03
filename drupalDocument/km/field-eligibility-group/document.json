@@ -1,0 +1,12 @@
+{
+  "$id": "drupalDocument_document",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Drupal Document",
+  "entityType": "drupalDocument_document",
+  "fields": [
+    "drupalDocument_createdDate",
+    "drupalDocument_creator",
+    "landingPageUrl"
+  ],
+  "required": []
+}
