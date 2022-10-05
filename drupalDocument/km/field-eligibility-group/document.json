@@ -6,7 +6,8 @@
   "fields": [
     "drupalDocument_createdDate",
     "drupalDocument_creator",
-    "landingPageUrl"
+    "landingPageUrl",
+    "drupalDocument_fileType"
   ],
   "required": []
 }
