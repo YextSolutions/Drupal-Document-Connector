@@ -71,7 +71,7 @@
             "Landing Page URL"
           ]
         },
-        "plugin": "extractFileUrl",
+        "plugin": "drupalDocument_extractFileUrl",
         "function": "extractFileUrl"
       }
     },
@@ -82,7 +82,7 @@
             "Creator"
           ]
         },
-        "plugin": "getUser",
+        "plugin": "drupalDocument_getUser",
         "function": "getUser"
       }
     },
