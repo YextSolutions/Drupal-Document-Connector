@@ -1,5 +1,5 @@
 {
-    "$id": "drupalDocument_drupalDocument",
+    "$id": "drupalDocument_fieldPresentation",
     "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
     "entityType": "drupalDocument_document",
     "displayName": "Drupal Document",
