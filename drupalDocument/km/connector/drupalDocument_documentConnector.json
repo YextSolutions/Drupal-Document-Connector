@@ -5,25 +5,13 @@
   "entityType": "drupalDocument_document",
   "source": {
     "sourceConfig": {
-      "apiPullConfig": {
-        "requestType": "GET",
-        "url": "${{drupalDomain}}/jsonapi/media/document",
-        "paginationControl": {
-          "cursorPagination": {
-            "cursor": "links.next.href",
-            "cursorType": "FULL_URL",
-            "detectCursorInHeader": false
+      "nativeSourceConfig": {
+        "source": "drupal",
+        "operation": "fetchDocumentMediaType",
+        "inputs": {
+          "drupalDomain": "${{drupalDomain}}"
           }
-        },
-        "headers": {
-          "Accept": "application/vnd.api+json",
-          "Content-Type": "application/vnd.api+json"
-        },
-        "queryParams": {
-          "per_page": "50"
-        },
-        "dataFormat": "JSON"
-      }
+        }
     },
     "baseSelector": {
       "type": "JSON",
