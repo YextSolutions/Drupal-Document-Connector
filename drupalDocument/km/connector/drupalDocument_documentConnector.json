@@ -7,7 +7,7 @@
     "sourceConfig": {
       "nativeSourceConfig": {
         "source": "drupal",
-        "operation": "fetchDocumentMediaType",
+        "operation": "fetchDocumentType",
         "inputs": {
           "drupalDomain": "${{drupalDomain}}"
           }
