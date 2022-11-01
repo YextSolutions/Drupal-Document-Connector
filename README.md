@@ -29,6 +29,7 @@ This app creates the following custom fields:
 - drupalDocument_creator
 - drupalDocument_fileType
 
+This app also adds two plugins, extractFileUrl and getUser.
 # Requirements
 
 To use this app you will need to have the following before you install:
