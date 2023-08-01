@@ -4,57 +4,57 @@
     "entityType": "drupalDocument_document",
     "displayName": "Drupal Document",
     "presentationEntries": [
-      {
-        "displayName": "Content",
-        "entryType": "DIVIDER"
-      },
-      {
-        "displayName": "Core Information",
-        "entryType": "SECTION",
-        "fields": [
-          {
-            "id": "name",
-            "visibleOnAdd": true
-          },
-          {
-            "id": "entityId",
-            "visibleOnAdd": true
-          },
-          {
-            "id": "landingPageUrl"
-          }
-        ]
-      },
-      {
-        "displayName": "Drupal Document Fields",
-        "entryType": "SECTION",
-        "fields": [
-          {
-            "id": "drupalDocument_createdDate"
-          },
-          {
-            "id": "drupalDocument_creator"
-          },
-          {
-            "id": "drupalDocument_fileType"
-          }
-        ]
-      },
-      {
-        "displayName": "Other",
-        "entryType": "DIVIDER"
-      },
-      {
-        "displayName": "Internal Use Only",
-        "entryType": "SECTION",
-        "fields": [
-          {
-            "id": "folder"
-          },
-          {
-            "id": "labels"
-          }
-        ]
-      }
+        {
+            "displayName": "Content",
+            "entryType": "DIVIDER"
+        },
+        {
+            "displayName": "Core Information",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "name",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "entityId",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "landingPageUrl"
+                }
+            ]
+        },
+        {
+            "displayName": "Drupal Document Fields",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "drupalDocument_createdDate"
+                },
+                {
+                    "id": "drupalDocument_creator"
+                },
+                {
+                    "id": "drupalDocument_fileType"
+                }
+            ]
+        },
+        {
+            "displayName": "Other",
+            "entryType": "DIVIDER"
+        },
+        {
+            "displayName": "Internal Use Only",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "folder"
+                },
+                {
+                    "id": "labels"
+                }
+            ]
+        }
     ]
-  }
+}
